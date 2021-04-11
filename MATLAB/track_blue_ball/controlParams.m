@@ -1,4 +1,4 @@
-function params = controlParams
+function [params] = controlParams
 
     params.Ts = 0.1;           % Sample time
 
