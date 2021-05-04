@@ -115,13 +115,6 @@ posSub = rossubscriber("/odom");
             plan = 4;
         end
         
-        
-
-
-
-
-
-
       t1_new = p1(20:30,:);
       c4 = polyfit(t1_new(:,1),t1_new(:,2),1);
       x_est = polyval(c4,t1_new(:,1));
